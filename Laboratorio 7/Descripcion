@@ -1,0 +1,10 @@
+En esta carpeta se presentan las 2 ramas principales de codigos utilizados durante la segunda mitad del proyecto.
+Dentro de cada una se encuentra la explicacion detallada.
+Dentro de cada codigo se encuentra comentado su funcionamiento.
+
++Mediciones: 
+Contiene los archivos necesarios a utilizar durante una campaña de medicion. Los programas que \\
+controlan la plaqueta ArduinoUNO asi como sus componentes y calibraciones, junto a los programas de adquisicion de datos.
+
++ Analisis de datos:
+Contiene los programas utilizados para analisar los datos medidos.
