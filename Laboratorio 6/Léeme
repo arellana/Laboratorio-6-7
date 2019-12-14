@@ -1,0 +1,5 @@
+Los programas contenidos en esta carpeta corresponden a los utilizados durante la primera mitad del proyecto. 
+
+Antena.py: fue utilizado para adquidir los datos del receptor gps, funcionando como interfaz entre la antena y la computadora.
+
+Los demas programas son los utilizados para analizar los datos.
