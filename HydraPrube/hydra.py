@@ -34,6 +34,9 @@ print(rcv)
 #print(":".join("{:02x}".format(ord(c)) for c in rcv))
 time.sleep(2)
  """
+
+f = open('data.out', 'w')
+
 port.write("000PE=1\r\n")
 rcv = port.readline()
 print(rcv)
@@ -54,6 +57,7 @@ while True:
 
 	rcv = port.readline()
 	print(rcv)
+	f.write(rcv)
 
  	# with open("hydra.dat", "a") as myfile:
 	# 	myfile.write(rcv)
@@ -61,4 +65,5 @@ while True:
 
 	#print(":".join("{:02x}".format(ord(c)) for c in rcv))
 	time.sleep(2)
-
+	
+f.close()
